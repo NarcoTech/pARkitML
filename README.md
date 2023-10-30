@@ -21,9 +21,12 @@ To make new predictions using our pre-trained neural network model, you can use 
 ## Dependencies
 To run the prediction script, you will need the following dependencies:
 
-Python 3.x
-TensorFlow
-NumPy
+1. Python 3.x
+2. TensorFlow
+3. NumPy
+4. Pandas
+5. Keras
+6. joblib
 
 ##Contributing
 We welcome contributions to pARkitML. If you have improvements or additional features to suggest, please feel free to submit a pull request or open an issue.
