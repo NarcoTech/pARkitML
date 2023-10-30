@@ -11,6 +11,19 @@ import joblib
 df = pd.read_csv('synthetic_parking_prices.csv')
 
 #features and target variable
+'''
+Params:
+
+1. Parking ID (Numeric)
+2. Day of the week (1-7 for days of the week)
+3. Time of day (in 4 digit hour format - 12pm = 1200 hours)
+4. Amenity type (IDs given to different amenities - Mall': 1, 'Museum': 2, 'Garden': 3, 'Park': 4, 'Restaurant': 5, 'Bar': 6, 'Club': 7, 'Hotel': 8, 'Guesthouse': 9, 'Hospital': 10)
+5. User rating of parking(0-5)
+6. Handicap accessible (0 - No, 1 - Yes)
+7. Distance to amenity (meters)
+8. Price (INR)
+'''
+
 X = df[['Day of the week', 'Time of day', 'Amenity type', 'Distance to amenity', 'User rating of parking', 'Handicap accessible']]
 y = df['Price']
 
@@ -47,9 +60,3 @@ plt.grid(True)
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], linestyle='--', color='red', linewidth=2)
 plt.tight_layout()
 plt.show()
-
-
-# model.save("parking_price_prediction_model.keras")
-
-
-
