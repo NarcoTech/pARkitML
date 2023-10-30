@@ -28,5 +28,5 @@ To run the prediction script, you will need the following dependencies:
 5. Keras
 6. joblib
 
-##Contributing
+## Contributing
 We welcome contributions to pARkitML. If you have improvements or additional features to suggest, please feel free to submit a pull request or open an issue.
