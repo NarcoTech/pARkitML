@@ -2,6 +2,12 @@
 
 Welcome to the pARkitML repository, home to machine learning models designed to enhance the 'pARkit' project—an AR-based parking solution with dynamic pricing capabilities. Our repository includes a pre-trained neural network model for predicting parking prices.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+
 ## Introduction
 
 pARkit is an innovative parking solution that leverages Augmented Reality (AR) technology to simplify and optimize the parking experience. One of the key features of pARkit is dynamic pricing, which allows us to adjust parking rates based on various factors such as demand, location, and time of day. The machine learning model in this repository is crucial for accurately predicting parking prices.
